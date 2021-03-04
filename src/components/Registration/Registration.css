@@ -1,0 +1,35 @@
+.Registration__Form {
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 12px;
+}
+.Registration__Form input {
+	font-size: 24px;
+	color: #212121;
+	padding: 16px;
+	border-radius: 40px;
+	border: none;
+	text-align: center;
+}
+
+.Registration__Form input:focus {
+	outline: none;
+}
+
+.Registration__Form button {
+	margin-top: 32px;
+	width: 100%;
+	padding: 24px;
+	background-color: transparent;
+	border: 3px solid rgb(255, 193, 7);
+	border-radius: 40px;
+	color: rgb(255, 193, 7);
+	font-size: 32px;
+}
+
+.Registration__Form button:hover {
+	background-color: rgba(255, 193, 7, 0.1);
+	cursor: pointer;
+}

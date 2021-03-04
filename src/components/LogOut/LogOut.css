@@ -1,0 +1,21 @@
+.LogOut {
+	height: 128px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.LogOut__Button {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	flex-wrap: nowrap;
+	color: rgb(244, 67, 54);
+	border: 1px solid rgb(244, 67, 54);
+	padding: 16px;
+}
+
+.LogOut__Button:hover {
+	cursor: pointer;
+	background-color: rgba(244, 67, 54, 0.1);
+}

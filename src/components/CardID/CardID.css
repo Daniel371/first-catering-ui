@@ -1,0 +1,28 @@
+.CardId__Input {
+	padding: 16px 32px;
+	color: #212121;
+	border-radius: 50px;
+	font-size: 48px;
+}
+
+.PinConfirmation {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 16px;
+	justify-content: center;
+	margin-bottom: 16px;
+}
+
+.PinConfirmation input {
+	text-align: center;
+	font-size: 54px;
+	width: 300px;
+	border-radius: 50px;
+	border: 1px solid #212121;
+}
+
+.PinConfirmation__Error {
+	color: red;
+}

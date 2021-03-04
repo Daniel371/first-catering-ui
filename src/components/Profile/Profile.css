@@ -1,0 +1,108 @@
+.Profile__ButtonContainer {
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 32px;
+}
+
+.Profile {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 32px;
+	width: 100%;
+}
+
+.Profile h1 {
+	font-size: 54px;
+	color: #64dd17;
+}
+
+.Profile h2 {
+	font-size: 48px;
+	color: #ffc107;
+	font-weight: normal;
+}
+
+.Profile h3 {
+	font-size: 80px;
+	color: #fafafa;
+}
+
+.Profile__ButtonContainer button {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+	padding: 16px;
+	border-radius: 50px;
+	font-size: 24px;
+	background-color: transparent;
+	cursor: pointer;
+	position: relative;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.Profile__ButtonContainer button p {
+	position: absolute;
+	top: calc(50% - 16px);
+	left: 0;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.Profile__ButtonContainer button svg {
+	margin-left: 16px;
+}
+
+.Profile__Confirm {
+	border: 3px solid rgb(100, 221, 23);
+	color: rgb(100, 221, 23);
+}
+
+.Profile__Confirm:hover {
+	background-color: rgba(100, 221, 23, 0.1);
+}
+
+.Profile__Topup {
+	border: 3px solid rgb(255, 193, 7);
+	color: rgb(255, 193, 7);
+}
+
+.Profile__Topup:hover {
+	background-color: rgba(255, 193, 7, 0.1);
+}
+
+.Topup {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 32px;
+}
+
+.Topup input {
+	border: 1px solid #212121;
+	padding: 16px;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 32px;
+	width: 200px;
+}
+
+.Topup__MethodsContainer {
+	margin-bottom: 16px;
+	display: flex;
+	gap: 32px;
+}
+
+.Topup__MethodsContainer button {
+	border: none;
+	background-color: transparent;
+}
+
+.Topup__MethodsContainer button:hover {
+	cursor: pointer;
+}
